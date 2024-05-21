@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+}
+h1:hover{
+    text-decoration: underline;
+}
+.main{
+    background-color: rgb(238, 197, 197);
+    height: 100px;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 100px;
+}
+.form-box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: rgb(250, 243, 243);
+    border-radius: 8px;
+    border: 2px solid rgb(238, 197, 197);
+    box-shadow: 0 0 25px rgb(238, 197, 197);
+    margin-top: 80px;
+}
+form input, form button ,form label{
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    width: 90%;
+    color: rgb(135, 71, 71);
+    margin-left: 30px;
+}button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background:rgb(188, 143, 143);
+    color:rgb(120, 59, 59);
+    font-weight: 500;
+    width: 100%;
+    margin-top: 100px;
+}
+button:hover {
+    background: rgb(146, 93, 93);
+    color: rgb(246, 246, 246);
+}
+.img-box{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 80px;
+    height: 250px;
+}
+.img-box img{
+    width: 500px;
+}
+.img-box h1{
+    font-size: 30px;
+    width: 20px;
+    margin-left: 300px;
+    color: rgb(146, 93, 93);
+}

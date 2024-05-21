@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+h1:hover{
+    text-decoration: underline;
+}
+h2{
+    margin-top: 30px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+}
+h2:hover{
+    text-decoration: underline;
+}
+.box{
+    display: flex;
+    margin-top: 30px;
+    height: 300px;
+}
+.form-box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(135, 71, 71);
+}
+form input, form button {
+    color: rgb(123, 61, 61);
+    padding: 10px;
+    margin: 30px 0;
+    display: block;
+    width: 90%;
+    border: 1px solid rgb(72, 52, 52);
+}
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background:rgb(247, 197, 172);
+    color:rgb(135, 71, 71);
+    font-weight: 500;
+    width: 100%;
+}
+button:hover {
+    background: rgb(135, 71, 71);
+    color: rgb(246, 246, 246);
+}
+.img-box img{
+    margin-right: 20px;
+    width: 500px;
+    height: 300px;
+}
+.backgrond{
+    background: url("image7.jpg" ) center no-repeat ;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+table {
+
+    width: 1100px;
+    margin-top: 45px;
+    margin-left: 100px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(220, 203, 193);
+    box-shadow: 0 0 25px rgb(190, 160, 144);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}

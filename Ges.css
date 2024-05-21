@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+h1:hover{
+    text-decoration: underline;
+}
+h2{
+    margin-top: 30px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+}
+h2:hover{
+    text-decoration: underline;
+}
+.main{
+    background: url("./image6.jpg" ) center no-repeat ;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 100px;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid rgb(247, 197, 172);
+    box-shadow: 0 0 25px rgb(247, 197, 172);
+    margin-top: 80px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background:rgb(207, 160, 136);
+    color:rgb(135, 71, 71);
+    font-weight: 500;
+    width: 100%;
+}
+button:hover {
+    background: rgb(135, 71, 71);
+    color: rgb(246, 246, 246);
+}
+
+table {
+    margin-top: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(148, 130, 121);
+    box-shadow: 0 0 25px rgb(149, 138, 132);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}

@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+   background-color: rgb(246, 200, 190); 
+}
+.dashboard-container p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 450px;
+    text-align: center; 
+    color: rgb(165, 95, 95);  
+}
+.dashboard-container button {
+    text-align: center; 
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    font-weight: 500;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 540px;
+}
+.dashboard-container h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.titre_1 h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.box1{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.chanal_1 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.chanal_1 .prix-1{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .chanal_1 .prix-1 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .chanal_1 .prix-1 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .chanal_1 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .chanal_1 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .chanal_2{
+    margin-left: 40px;
+  }
+.chanal_2 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.chanal_2 .prix-2{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .chanal_2 .prix-2 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .chanal_2 .prix-2 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .chanal_2 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .chanal_2 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .chanal_3{
+    margin-left: 40px;
+  }
+  .chanal_3 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.chanal_3 .prix-3{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .chanal_3 .prix-3 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .chanal_3 .prix-3 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .chanal_3 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .chanal_3 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .titre_2 h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.box2{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.marc_1 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.marc_1 .prix-1{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .marc_1 .prix-1 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .marc_1 .prix-1 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .marc_1 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .marc_1 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .marc_2{
+    margin-left: 40px;
+  }
+.marc_2 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.marc_2 .prix-2{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .marc_2 .prix-2 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .marc_2 .prix-2 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .marc_2 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .marc_2 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .marc_3{
+    margin-left: 40px;
+  }
+  .marc_3 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.marc_3 .prix-3{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .marc_3 .prix-3 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .marc_3 .prix-3 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .marc_3 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .marc_3 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .titre_3 h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.box3{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.tom_1 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.tom_1 .prix-1{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .tom_1 .prix-1 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .tom_1 .prix-1 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .tom_1 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .tom_1 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .tom_2{
+    margin-left: 40px;
+  }
+.tom_2 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.tom_2 .prix-2{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .tom_2 .prix-2 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .tom_2 .prix-2 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .tom_2 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .tom_2 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .tom_3{
+    margin-left: 40px;
+  }
+  .tom_3 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.tom_3 .prix-3{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .tom_3 .prix-3 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .tom_3 .prix-3 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .tom_3 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .tom_3 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .titre_4 h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.box4{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.yves_1 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.yves_1 .prix-1{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .yves_1 .prix-1 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .yves_1 .prix-1 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .yves_1 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .yves_1 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .yves_2{
+    margin-left: 40px;
+  }
+.yves_2 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.yves_2 .prix-2{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .yves_2 .prix-2 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .yves_2 .prix-2 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .yves_2 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .yves_2 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .yves_3{
+    margin-left: 40px;
+  }
+  .yves_3 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.yves_3 .prix-3{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .yves_3 .prix-3 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .yves_3 .prix-3 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .yves_3 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .yves_3 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .titre_5 h1{
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(123, 61, 61);
+
+}
+.box5{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.bacarat_1 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.bacarat_1 .prix-1{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .bacarat_1 .prix-1 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .bacarat_1 .prix-1 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .bacarat_1 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .bacarat_1 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .bacarat_2{
+    margin-left: 40px;
+  }
+.bacarat_2 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.bacarat_2 .prix-2{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .bacarat_2 .prix-2 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .bacarat_2 .prix-2 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .bacarat_2 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .bacarat_2 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
+  .bacarat_3{
+    margin-left: 40px;
+  }
+  .bacarat_3 img {
+    border-radius: 15px;
+   width: 350px;
+   height: 270px;
+}
+.bacarat_3 .prix-3{
+    display: flex;  
+     margin-top: 20px;
+   margin-left: 20px;
+  }
+  .bacarat_3 .prix-3 h1{
+    color: rgb(123, 61, 61);
+
+  }
+  .bacarat_3 .prix-3 h2{
+    color: gray;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: line-through;
+   }
+  .bacarat_3 button{
+    margin-top: 30px;
+    background:rgb(158, 96, 96);
+    color:rgb(255, 251, 251);
+    width: 140px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .bacarat_3 button:hover{
+    background-color: #fff;
+    border: rgb(158, 96, 96) solid;
+    color: rgb(158, 96, 96);
+  }
